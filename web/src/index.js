@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import App from './composants/App.js';
 import reportWebVitals from './composants/reportWebVitals';
+import Enigme from './composants/Enigme.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
