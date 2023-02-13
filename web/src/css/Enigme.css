@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+.texte{
+    color: white;
+}
+.answer{
+    color: white;
+}
+.Enigme{
+    display: flex;
+    justify-content: center;
+}
