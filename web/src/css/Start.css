@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #23242a;
+  color: white;
+  overflow: hidden;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(49, 192, 185);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: none;
+}
