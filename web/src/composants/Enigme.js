@@ -1,10 +1,6 @@
 import React from 'react';
 import fouras from '../data/fouras.gif';
 
-import {
-  BrowserRouter as Router,
-  Link,
-} from "react-router-dom";
 
 function Enigme() {
   return (
