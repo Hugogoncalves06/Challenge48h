@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
-import Enigme from './composants/Enigme';
+import App from './composants/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Enigme />
+    <App />
   </React.StrictMode>
 );

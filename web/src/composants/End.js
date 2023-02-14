@@ -1,6 +1,6 @@
 import bravo from '../data/bravo.gif'
 import '../css/End.css'
-
+import React from "react";
 function Fin(){
     return(
         <div>
