@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
-import Start from './composants/Start.js';
+import End from './composants/End.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Start />
+    <End />
   </React.StrictMode>
 );

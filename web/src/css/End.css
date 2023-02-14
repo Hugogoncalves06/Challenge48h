@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    font-size: 300%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.bravo{
+    display: flex;
+    justify-content: center;
+    margin-left: 29%;
+}

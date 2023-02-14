@@ -14,8 +14,8 @@ function Enigme() {
             Plus je suis gardé. <br/>
             Qui est-il ?    <br/>
             </p>
-             <label className="answer" for="answer">Entrer votre réponse </label>
-             <input type="text" answer="answer"></input>
+            <label className="answer" for="answer">Entrer votre réponse </label>
+            <input type="text" answer="answer"></input>
      </div>
   );
 }
