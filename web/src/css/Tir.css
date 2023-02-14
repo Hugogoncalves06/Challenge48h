@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 500%;
+    margin-top: 10%;
+}
