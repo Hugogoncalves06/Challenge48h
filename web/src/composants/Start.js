@@ -1,4 +1,5 @@
 import '../css/Start.css';
+import React from 'react';
 
 const ClosePageButton = () => {
   const closePage = () => {
@@ -15,7 +16,7 @@ const ClosePageButton = () => {
 function Start() {
   return (
     <div>
-      <h1>Cliquer <a href="https://localhost:3000/Enigme.js"> ici </a> pour commencer</h1>
+      <h1>Cliquer <a href="http://localhost:3000/Enigme"> ici </a> pour commencer</h1>
       <ClosePageButton />
     </div>
   );

@@ -4,13 +4,13 @@ import '../css/Enigme.css';
 
 function Enigme() {
   setTimeout(function() {
-    document.getElementById("myButton").style.display = "block"}, 60000); // Afficher le bouton après 90 secondes
+    document.getElementById("myButton").style.display = "block"}, 5000); // Afficher le bouton après 90 secondes
   return (
     <div className="Enigme">
       <div className="images">
         <img src={fouras} className="Enigme-fouras" alt="fouras" />
       </div>
-      
+      <form action="" method="get" name="formSaisie">
       <div className="user">
         <h2 className='texte'>
           Plus j'ai de gardiens,<br />
@@ -22,7 +22,7 @@ function Enigme() {
         <label className="answer" for="answer">Entrer votre réponse (un seul mot)</label>
         <input className="falseUsers" type="text" false="answers"></input>
         </div>
-        <form action="" method="get" name="formSaisie">
+        
         <input className="trueUsers" type="text" id="answer"></input>
         <button className="Time" id="myButton" >Regardez plus bas !</button>
         </form>

@@ -79,3 +79,7 @@ body {
     overflow: auto;
     height: 500px;
 }
+
+.Time{
+    display:none;
+}
