@@ -11,16 +11,18 @@ function Tir() {
     });
 
     return (
-        <div className="Tir">
-            <h1>Crusher games</h1>            
-            <Unity 
-            unityProvider={unityProvider} 
-            style = {{
-                idth: "1101", 
-                height: "515",
-                border: "2px solid black",
-                background: "green"}}
-            />
+        <div className="tir">
+            <div className='tir'>
+                <h1>Shoot game</h1> 
+                <Unity 
+                unityProvider={unityProvider} 
+                style = {{
+                    idth: "1101", 
+                    height: "515",
+                    border: "2px solid black",
+                    background: "green"}}
+                />
+            </div>
         </div> 
     );
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Unity, useUnityContext } from "react-unity-webgl";
-import '../css/Tir.css'
+import '../css/Snake.css'
 
 function Snake() {
     const { unityProvider } = useUnityContext({
@@ -11,16 +11,18 @@ function Snake() {
     });
 
     return (
-        <div className="Tir">
-            <h1>Snake games</h1>            
-            <Unity 
-            unityProvider={unityProvider} 
-            style = {{
-                idth: "1101", 
-                height: "515",
-                border: "2px solid black",
-                background: "green"}}
-            />
+        <div className="snake">
+            <div className='snake'>
+                <h1>Snake games</h1> 
+                <Unity 
+                unityProvider={unityProvider} 
+                style = {{
+                    idth: "1101", 
+                    height: "515",
+                    border: "2px solid black",
+                    background: "green"}}
+                />
+            </div>
         </div> 
     );
   }
