@@ -16,10 +16,11 @@ function Enigme() {
           Plus je suis gardé. <br />
           Qui est-il ?    <br />
         </h2>
-        <label className="answer" for="answer">Entrer votre réponse </label>
+        <label className="answer" for="answer">Entrer votre réponse (un seul mot)</label>
         <input className="falseUsers" type="text" answer="answer"></input>
+        </div>
         <input className="trueUsers" type="text" answer="answer"></input>
-      </div>
+      
     </div>
   );
 }
