@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../data/logo.svg';
-import '../css/App.css';
+//import '../css/App.css';
 import {
   BrowserRouter as Router,
   Link,
