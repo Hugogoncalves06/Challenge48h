@@ -1,50 +1,32 @@
-import React from 'react';
-import logo from '../data/logo.svg';
-//import '../css/App.css';
-import {
-  BrowserRouter as Router,
-  Link,
-} from "react-router-dom";
+// App.js
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/composants/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Router>
-      <div>
-        <h2>Accounts</h2>
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Start from './Start';
+import Enigme from './Enigme';
+import Snake from './Snake';
+import Tir from './Tir';
+import End from './End';
 
-        <ul>
-          <li>
-            <Link to="/netflix">Netflix</Link>
-          </li>
-          <li>
-            <Link to="/zillow-group">Zillow Group</Link>
-          </li>
-          <li>
-            <Link to="/yahoo">Yahoo</Link>
-          </li>
-          <li>
-            <Link to="/modus-create">Modus Create</Link>
-          </li>
-        </ul>
-      </div>
-    </Router>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+    <Router>
+        <div>
+
+          <hr />
+          <Switch>
+              <Route exact path='/' component={Start} />
+              <Route path='/Enigme' component={Enigme} />
+              <Route path='/Snake' component={Snake} />
+              <Route path='/Tir' component={Tir} />
+              <Route path='/End' component={End} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
+
